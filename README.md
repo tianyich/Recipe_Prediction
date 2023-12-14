@@ -18,6 +18,7 @@ We first performs data cleaning process similar to the Recipe Research Project. 
 1. We "expand" the nutrition column to multiple columns containing the nutrition of each type, i.e. calories (#), total fat (PDV), sugar (PDV), sodium (PDV), protein (PDV), saturated fat (PDV), carbohydrates (PDV). 
 2. We created a new binary column `recommend`, setting it to 1 if the average rating for that recipe is higher than 4.9. We obtain the threshold 4.9 by inspecting the distribution of average rating in the dataframe.  
 <iframe src="img/distrb.html" width=800 height=600 frameBorder=0></iframe>
+
 3. We droped all the columns that we do not have information by the time of prediction.
 
 # Baseline Model
